@@ -87,6 +87,7 @@ const Slider = ({ images, prices, names, buttonsColors }) => {
               border: 'none',
               
             }}            
+            
           >
             <img
               src={`/img/Products/${image}`}
