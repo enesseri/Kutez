@@ -1,12 +1,17 @@
+export default function Container() {
+  const headingStyle = {
+    fontFamily: 'Avenir, sans-serif',
+    fontSize: '12pt', 
+    textAlign: 'center',
+    margin: '0.5rem',
+    padding: '0.5rem',
+  };
 
-export default function container() {
   return (
     <div>
       <div>
-        <h2 className="text-center m-4 p-4">Moissanite Engagement Rings</h2>
+        <h2 style={headingStyle}>Moissanite Engagement Rings</h2>
       </div>
-
     </div>
-
-  )
+  );
 }
